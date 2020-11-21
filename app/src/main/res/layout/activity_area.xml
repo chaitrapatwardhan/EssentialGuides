@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AreaActivity"
-    android:background="#FEF9E7">
+    android:background="@drawable/map">
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -25,10 +25,7 @@
         android:layout_marginTop="170dp"
         android:layout_marginLeft="50dp"
         android:text="Kothrud"
-        android:textColor="#fff"
         android:textSize="20dp"
-        android:background="#05587E"
-
         />
 
     <Button
@@ -79,5 +76,116 @@
         android:text="Sinhagad road"
         android:textColor="#fff"
         android:textSize="20dp" />
+-->
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location"/>
+        <Button
+            android:id="@+id/area1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="KOTHRUD"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location"/>
+        <Button
+            android:id="@+id/area2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PASHAN"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location"/>
+
+        <Button
+            android:id="@+id/area3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="SAHAKARNAGAR"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location"/>
+        <Button
+            android:id="@+id/area4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SHIVAJINAGAR"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/location"/>
+        <Button
+            android:id="@+id/area5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SINHAGAD ROAD"
+            android:gravity="center_vertical"
+            android:textSize="18sp"
+            android:background="?android:attr/selectableItemBackground"/>
+    </LinearLayout>
 
 </RelativeLayout>
